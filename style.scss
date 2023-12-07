@@ -1,0 +1,440 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html {
+    width: 100%;
+}
+
+header {
+    background-image: url(./image-header-blue-orange.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    background-repeat: no-repeat;
+}
+
+.topheader {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.logosunny {
+    width: 170px;
+    padding-top: 12px;
+    padding-left: 12px;
+}
+
+.boxlogo {
+    flex: 2;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    color: white;
+    justify-content: space-between;
+}
+.contact{
+    margin-left:47px;
+    font-family: 'Fraunces';
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 30px;
+    border: none;
+    width: 140px;
+    transition: 0.4s;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+button:hover {
+    background-color: hsl(210, 59%, 64%);
+    color: white;
+    cursor: pointer;
+ }
+.textmenu {
+    flex: 2;
+    color: white;
+    font-family: 'barlow';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.13px;
+    display: flex;
+    flex-direction: row;
+}
+
+.about {
+    width: 48px;
+    margin-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.services {
+    width: 72px;
+    height: 25px;
+    margin-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.projects {
+    width: 66px;
+    margin-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.title {
+    width: 750px;
+    margin-top: 150px;
+    margin-left: 344.5px;
+    color: white;
+    font-family: 'Fraunces';
+    letter-spacing: 8.75px;
+    font-size: 56px;
+    font-weight: 900;
+    padding-left: 20px;
+}
+
+.fleche {
+    width: 30px;
+    border: 6px;
+    margin-left: 600px;
+    margin-top: 75px;
+}
+
+.box2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.box2right {
+    width: 50%;
+    height: auto;
+    margin-bottom: -5px;
+    max-width: 1440px;
+}
+.imgbox2{
+    width: 100%;
+}
+.box2left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -5px;
+}
+.box2text{
+    margin-left: 165px;
+    margin-right: 110px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.titlebox2 {
+    font-family: 'Fraunces 9pt Soft';
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 49px;
+    letter-spacing: -0.28px;
+}
+
+.textbox2 {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 10px;
+    font-family: 'Barlow';
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: -0.12px;
+    padding-top: 20px;
+}
+
+.textfinbox2 {
+    width: 137px;
+    height: 25px;
+}
+
+.h1box2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 40px;
+    letter-spacing: -0.29px;
+}
+
+.pbox2 {
+    font-family: 'Barlow';
+    font-weight: 600;
+    font-size: 18px;
+    color: #808397;
+}
+
+.pfinbox2 {
+    border-bottom: 10px solid rgba(250, 212, 0, 0.3);
+    border-radius: 3px 5px;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    width: 137px;
+    text-transform: uppercase;
+    font-family: 'Fraunces';
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    margin-top: 40px;
+    display: inline-block;
+    height: 0.8em;
+    
+}
+
+.box3 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.box3right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -5px;
+}
+
+.box3left {
+    width: 50%;
+    height: auto;
+    margin-bottom: -5px;
+    max-width: 1440px;
+}
+.box3text{
+    margin-left: 165px;
+    margin-right: 110px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.imgbox3{
+    width: 100%;
+}
+.titlebox3 {
+    font-family: 'Fraunces 9pt Soft';
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 49px;
+    letter-spacing: -0.28px;
+}
+
+.textbox3 {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 10px;
+    font-family: 'Barlow';
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: -0.12px;
+    padding-top: 20px;
+}
+
+.textfinbox3 {
+    width: 137px;
+}
+
+.h1box3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 40px;
+    letter-spacing: -0.29px;
+}
+
+.pbox3 {
+    font-family: 'Barlow';
+    font-weight: 600;
+    font-size: 18px;
+    color: #808397;
+}
+
+.pfinbox3 {
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    width: 137px;
+    text-transform: uppercase;
+    font-family: 'Fraunces';
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    margin-top: 40px;
+    border-bottom: 10px solid rgba(254, 119, 102, 0.3);
+    border-radius: 3px 5px;
+    display: inline-block;
+    height: 0.8em;
+}
+
+.box4 {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+}
+
+.box4left {
+    width: 50%;
+    height: auto;
+    background-image: url(image-graphic-design.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    color: #3E7467;
+
+
+}
+.box4text{
+    text-align: center;
+    margin-top: 400px;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+.h1box4 {
+    font-family: Fraunces 9pt Soft;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 35px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: center;
+}
+.pbox4 {
+    font-family: Barlow;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: -0.11428571492433548px;
+    text-align: center;
+    padding-top: 15px;
+}
+.box4right {
+    width: 50%;
+    background-image: url(image-photography.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #19536C;
+}
+.boxclients{
+    display: flex;
+    flex-direction: row;
+}
+.imgclients{
+    width: 72px;
+    height: 72px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.titleclient{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Styles pour la version mobile */
+@media only screen and (max-width: 767px) {
+    header {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .topheader {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logosunny {
+        width: 100%;
+        padding: 12px;
+        text-align: center;
+    }
+
+    .boxlogo {
+        flex: 1;
+    }
+
+    .menu {
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .contact {
+        margin-left: 0;
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .textmenu {
+        flex: 1;
+        margin-top: 10px;
+    }
+
+    .title {
+        width: 100%;
+        margin-left: 0;
+        font-size: 36px;
+    }
+
+    .fleche {
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+
+    .box2 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+
+    .box2text {
+        margin: 20px;
+    }
+
+    .titlebox2 {
+        font-size: 28px;
+        line-height: 35px;
+    }
+    .box3{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+    .box4{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    /* Ajoutez d'autres règles pour les autres parties de votre code selon vos besoins */
+}
+
